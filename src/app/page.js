@@ -12,7 +12,7 @@ export default function Home() {
   }, [name]);
 
   const handleOnclick = () => {
-    setName('HHHHHHHHH');
+    setName('HHHHHHHHH55555');
   }
 
   const handleChange = (e) => {
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        Мой сайт !
+        Мой сайт !$$$
       </div>
       <div className={styles.description}>
         <input type="text" ref={ref} value={name} onChange={handleChange}/> name = {name}
